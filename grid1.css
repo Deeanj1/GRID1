@@ -1,0 +1,220 @@
+body{
+    padding: 30px;
+    font-family: poppins;
+
+}
+
+.container{ height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    gap:20px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
+.box1{
+    background-color: #733fc8;
+    grid-column: 1 / span 2;
+    border-radius: 15px;
+    background-image:url(./bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+    max-height: 250px; 
+    padding: 20px;
+}
+.box2 {
+    background-color: #49556b;
+    border-radius: 15px;
+    padding: 20px;
+}
+.box3{
+    background-color: #ffffff;
+    grid-row-start: span 4;
+    grid-row-end: span 2;
+    padding: 20px;
+    height: 610px;
+    border-radius: 15px;
+}
+.box4{
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 40px;
+
+}
+.box5 {
+    background-color: #191f2d;
+    grid-column: 2/ span 2;
+    border-radius: 15px;
+    padding: 20px;
+}
+img {
+    width: 40px;  
+    height: 40px; 
+    border-radius: 50%;
+    margin: 10px;
+}
+p {
+    margin: 0;
+    
+}
+
+.dtext1{
+ display: flex;
+align-items: center;
+color: white;
+white-space: normal;
+overflow: hidden;
+font-size: 10px
+
+
+}
+.dtext2{
+display: flex;
+align-items: center;
+color: white;
+margin-bottom: 20px;
+white-space: normal;
+overflow: hidden;
+font-size: 20px
+
+
+
+   }
+   .dtext3{
+    display: flex;
+    align-items: center;
+    color: #c3ccdc;
+    white-space: normal;
+    overflow: hidden;
+    font-size: 10px
+    
+   }
+   .jtext1{
+    display: flex;
+   align-items: center;
+   color: white;
+   white-space: normal;
+   overflow: hidden;
+   font-size: 10px
+   
+   
+   }
+   .jtext2{
+   display: flex;
+   align-items: center;
+   color: #c3ccdc;
+   margin-bottom: 20px;
+   white-space: normal;
+   overflow: hidden;
+   font-size: 20px
+   
+   
+   
+      }
+      .jtext3{
+       display: flex;
+       align-items: center;
+       color: #c3ccdc;
+       white-space: normal;
+       overflow: hidden;
+       font-size: 10px;
+       margin-top: 20px;
+       
+      }
+      .jhtext1{
+        display: flex;
+       align-items: center;
+       color: #b9bac1;
+       white-space: normal;
+       overflow: hidden;
+       font-size: 10px
+       
+       
+       }
+       .jhtext2{
+       display: flex;
+       align-items: center;
+       color: #65696d;
+       margin-bottom: 20px;
+       white-space: normal;
+       overflow: hidden;
+       font-size: 20px
+       
+       
+       
+          }
+          .jhtext3{
+           display: flex;
+           align-items: center;
+           color: #8c9195;
+           white-space: normal;
+           overflow: hidden;
+           font-size: 13px;
+           
+          }
+          .ktext1{
+            display: flex;
+           align-items: center;
+           color: #9b9fa2;
+           white-space: normal;
+           overflow: hidden;
+           font-size: 13px
+           
+           
+           }
+           .ktext2{
+           display: flex;
+           align-items: center;
+           color: #5e6469;
+           margin-bottom: 20px;
+           white-space: normal;
+           overflow: hidden;
+           font-size: 20px
+           
+           
+           
+              }
+              .ktext3{
+               display: flex;
+               align-items: center;
+               color: #c3ccdc;
+               white-space: normal;
+               overflow: hidden;
+               font-size: 13px;
+               margin-top: 20px;
+               
+              }
+              .ptext1{
+                display: flex;
+               align-items: center;
+               color: white;
+               white-space: normal;
+               overflow: hidden;
+               font-size: 13px
+               
+               
+               }
+               .ptext2{
+               display: flex;
+               align-items: center;
+               color: white;
+               margin-bottom: 20px;
+               white-space: normal;
+               overflow: hidden;
+               font-size: 18px
+               
+               
+               
+                  }
+                  .ptext3{
+                   display: flex;
+                   align-items: center;
+                   color: #c3ccdc;
+                   white-space: normal;
+                   overflow: hidden;
+                   font-size: 13px
+                   
+                  }
+
+   
